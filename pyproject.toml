@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "image-scraper"
+version = "0.1.0"
+description = "Web image scraper using Flask"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.1.1"
+flask-cors = "^6.0.1"
+requests = "^2.32.4"
+beautifulsoup4 = "^4.13.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
